@@ -4,14 +4,14 @@
 
 [![ReadTheDocs documentation status](https://readthedocs.org/projects/pycdmsapi/badge/?version=latest)](https://pycdmsapi.readthedocs.io/en/latest/?version=latest)
         
-pycdmsapi a Python server implementation for a common Web API for Climate Data Management Systems (CDMS)
+pycdmsapi is intended to be a Python server implementation for a common Web API for Climate Data Management Systems (CDMS) including OpenCDMS.
 
 * Free software: MIT license
 * Documentation: https://pycdmsapi.readthedocs.io.
 
 ## Background
 
-Our first implementation of OpenCDMS API ([opencdms-api](https://github.com/opencdms/opencdms-api)) was a FastAPI application that [mounted existing WSGI applications](https://fastapi.tiangolo.com/advanced/wsgi/) to expose APIs served by:
+Our first implementation of a Web API for OpenCDMS ([opencdms-api](https://github.com/opencdms/opencdms-api)) was a FastAPI application that [mounted existing WSGI applications](https://fastapi.tiangolo.com/advanced/wsgi/) to expose APIs served by:
 - [geopython/pygeoapi](https://github.com/geopython/pygeoapi) (flask)
 - [opencmds/surface](https://github.com/opencdms/surface) (django)
 - [opencdms/MCH-API](https://github.com/opencdms/mch-api) (flask)
